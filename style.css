@@ -1,0 +1,73 @@
+.txtFont{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.centered{
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
+   border: solid black 1.5px;
+   border-radius: 10px;
+   box-shadow: 0px 0px 15px 1px gray;
+   height: 750px;
+}
+
+.txtCenter{
+    width: 100%;
+    font-weight: bold;
+    font-size: large;
+    margin: 0% 38.75% 0% 38.75%;
+}
+
+.inputBox{
+    transition: all linear 0.1s;
+    margin: 1% 10% 1% 10%;
+    width: 80%;
+}
+
+
+.btnChange{
+    transition: all linear 0.125s;
+    background-color: limegreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
+    width: 15%;
+    height: 37.5px;
+}
+
+.btnChange:hover{
+    transform: scale(125%,125%);
+    box-shadow: 0px 0px 7px 0.75px rgba(72, 255, 0, 1);
+    font-weight: bold;
+}
+
+#img{
+    width: 100%;
+    height: 580px;
+    border-image-slice:100%;
+}
+
+.rowSet{
+    width: 75%;
+    margin: 0% 12.5% 0% 12.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    justify-self: center;
+}
+
+@media (max-width: 600px) {
+    .txtCenter{
+        width: 100%;
+        font-weight: bold;
+        font-size: large;
+        text-align: center;
+        margin: 0% 25% 0% 25%;
+    }
+}
